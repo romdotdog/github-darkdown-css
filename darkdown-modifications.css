@@ -1,0 +1,403 @@
+/* Credits to GitHub-Dark https://github.com/StylishThemes/GitHub-Dark */
+
+.markdown-body kbd {
+  color: #afafaf;
+  background-color: transparent;
+  border-color: #404040;
+  box-shadow: inset 0 -1px 0 #404040;
+}
+
+.markdown-body .absent {
+  color: #d82828;
+}
+
+.markdown-body hr {
+  background-color: #343434;
+}
+
+.markdown-body blockquote {
+  color: #9b9b9b;
+  border-left-color: #404040;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  border-bottom-color: #343434;
+}
+
+.markdown-body h6 {
+  color: #9b9b9b;
+}
+
+.markdown-body table td,
+.markdown-body table th {
+  border-color: #404040;
+}
+
+.markdown-body table tr {
+  background-color: transparent;
+  border-top-color: #505050;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #222;
+}
+
+.markdown-body table img {
+  background-color: initial;
+}
+
+.markdown-body img {
+  background-color: transparent;
+}
+
+.markdown-body .emoji {
+  background-color: initial;
+}
+
+.markdown-body span.frame > span {
+  border-color: #404040;
+}
+
+.markdown-body span.frame span span {
+  color: #c6c6c6;
+}
+
+.markdown-body code,
+.markdown-body tt {
+  background-color: rgba(220, 220, 220, 0.1);
+}
+
+.markdown-body pre > code {
+  background-color: transparent;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  background-color: #222;
+}
+
+.markdown-body pre code,
+.markdown-body pre tt {
+  background-color: initial;
+}
+
+.markdown-body .csv-data .blob-num {
+  background-color: transparent;
+}
+
+.markdown-body .csv-data th {
+  background-color: #222;
+}
+
+/* From here on was kinda painful */
+
+.markdown-body pre code,
+.markdown-body pre tt {
+  padding: 0.2em 0 !important;
+  border: none !important;
+}
+.markdown-body code::before,
+.markdown-body code::after,
+.markdown-body tt::before,
+.markdown-body tt::after,
+.markdown-body pre code::before,
+.markdown-body pre code::after,
+.markdown-body pre tt::before,
+.markdown-body pre tt::after {
+  display: none !important;
+}
+
+.markdown-body details summary:not([aria-haspopup]):hover {
+  background: #282828;
+  box-shadow: 0 0 0 2px #282828;
+  cursor: pointer;
+}
+
+.markdown-body code .v-align-middle {
+  position: relative;
+  top: -1px;
+}
+
+.markdown-body pre code,
+.markdown-body pre tt {
+  background: none !important;
+}
+
+.markdown-body li.added.moved {
+  background: rgba(51, 34, 17, 0.4) !important;
+  border: 1px solid #542 !important;
+  color: #ddd !important;
+}
+
+.markdown-body code,
+.markdown-body tt,
+.markdown-body pre,
+.markdown-body .highlight pre {
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.markdown-body tt {
+  background: #222 !important;
+}
+
+.markdown-body code,
+p code {
+  background: #222;
+}
+
+:root {
+  --ghd-code-background: #141414;
+  --ghd-code-color: #ccc;
+}
+
+.markdown-body pre {
+  background-color: var(--ghd-code-background) !important;
+  color: var(--ghd-code-color) !important;
+}
+
+.markdown-body del {
+  color: #9b9b9b;
+}
+
+/* Code - Credits: GitHub Twilight */
+
+.pl-c,
+.pl-c span {
+  color: #5f5a60 !important;
+  font-style: italic !important;
+}
+.pl-c1,
+.pl-cce {
+  color: #cf6a4c !important;
+}
+.pl-cce {
+  font-weight: 400 !important;
+}
+.pl-cn,
+.pl-coc {
+  color: #cf6a4c !important;
+}
+.pl-cos {
+  color: #8f9d6a !important;
+}
+.pl-e,
+.pl-ef,
+.pl-en {
+  color: #ac885b !important;
+}
+.pl-enc {
+  color: #cf6a4c !important;
+}
+.pl-enf,
+.pl-enm {
+  color: #ac885b !important;
+}
+.pl-ens {
+  color: #cf6a4c !important;
+}
+.pl-ent {
+  color: #cda869 !important;
+}
+.pl-entc,
+.pl-enti {
+  color: #ac885b !important;
+}
+.pl-enti {
+  font-weight: 700 !important;
+}
+.pl-entm {
+  color: #7587a6 !important;
+}
+.pl-eoa {
+  color: #cda869 !important;
+}
+.pl-eoac,
+.pl-eoac .pl-pde {
+  color: #7587a6 !important;
+}
+.pl-eoai,
+.pl-eoai .pl-pde {
+  color: #cda869 !important;
+}
+.pl-eoi {
+  color: #ac885b !important;
+}
+.pl-k {
+  color: #cf6a4c !important;
+}
+.pl-ko,
+.pl-kolp {
+  color: #cda869 !important;
+}
+.pl-kos,
+.pl-kou {
+  color: #cf6a4c !important;
+}
+.pl-mai .pl-sf {
+  color: #7587a6 !important;
+}
+.pl-mb {
+  color: #8f9d6a !important;
+  font-weight: 700 !important;
+}
+.pl-mc {
+  color: #cda869 !important;
+}
+.pl-mh {
+  font-weight: 400 !important;
+}
+.pl-mh,
+.pl-mh .pl-pdh {
+  color: #cf6a4c !important;
+}
+.pl-mi {
+  color: #cda869 !important;
+  font-style: italic !important;
+}
+.pl-ml {
+  color: #8f9d6a !important;
+}
+.pl-mm {
+  color: #7587a6 !important;
+}
+.pl-mp {
+  color: #c5af75 !important;
+}
+.pl-mp1 .pl-sf {
+  color: #dad085 !important;
+}
+.pl-mq {
+  color: #cf6a4c !important;
+}
+.pl-mr,
+.pl-ms {
+  color: #cda869 !important;
+}
+.pl-pdb {
+  color: #8f9d6a !important;
+  font-weight: 700 !important;
+}
+.pl-pdc {
+  color: #5f5a60 !important;
+  font-style: italic !important;
+}
+.pl-pdc1,
+.pl-pde {
+  color: #cf6a4c !important;
+}
+.pl-pdi {
+  color: #cda869 !important;
+  font-style: italic !important;
+}
+.pl-pds {
+  color: #8f9d6a !important;
+}
+.pl-pdv {
+  color: #7587a6 !important;
+}
+.pl-pse,
+.pl-pse .pl-s2 {
+  color: #cf6a4c !important;
+}
+.pl-s {
+  color: #f9ee98 !important;
+}
+.pl-s1,
+.pl-s2 {
+  color: #ccc !important;
+}
+.pl-mp .pl-s3 {
+  color: #cda869 !important;
+}
+.pl-s3,
+.pl-sc {
+  color: #dad085 !important;
+}
+.pl-scp {
+  color: #cf6a4c !important;
+}
+.pl-sf {
+  color: #dad085 !important;
+}
+.pl-smc {
+  color: #ac885b !important;
+}
+.pl-smi,
+.pl-smp {
+  color: #ccc !important;
+}
+.pl-sok {
+  color: #cda869 !important;
+}
+.pl-sol {
+  color: #8f9d6a !important;
+}
+.pl-som,
+.pl-sr {
+  color: #7587a6 !important;
+}
+.pl-sra,
+.pl-src,
+.pl-sre,
+.pl-st {
+  color: #cda869 !important;
+}
+.pl-stj {
+  color: #7587a6 !important;
+}
+.pl-stp,
+.pl-sv,
+.pl-v {
+  color: #9b859d !important;
+}
+.pl-vi {
+  color: #cf6a4c !important;
+}
+.pl-vo {
+  color: #ac885b !important;
+}
+.pl-vpf {
+  color: #7587a6 !important;
+}
+.pl-mdht,
+.pl-mi1 {
+  color: #55a532 !important;
+  background: #020 !important;
+}
+.pl-md,
+.pl-mdhf {
+  color: #bd2c00 !important;
+  background: #200 !important;
+}
+.pl-mdr {
+  color: #cf6a4c !important;
+  font-weight: 400 !important;
+}
+.pl-mdh,
+.pl-mdi {
+  color: #7587a6 !important;
+  font-weight: 400 !important;
+}
+.pl-bu,
+.pl-ii,
+.pl-ii .pl-cce {
+  background-color: #df5000 !important;
+  color: #fff !important;
+}
+.pl-mo {
+  color: #969896 !important;
+}
+.pl-mri {
+  color: teal !important;
+}
+.pl-ms1 {
+  background-color: #f5f5f5 !important;
+}
+.pl-va,
+.pl-vpu {
+  color: teal !important;
+}
+.pl-entl {
+  color: #ccc !important;
+}
