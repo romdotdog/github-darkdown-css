@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "The minimal amount of CSS to replicate the GitHub Markdown style",
 	"license": "MIT",
-	"repository": "sindresorhus/github-darkdown-css",
+	"repository": "romdotdog/github-darkdown-css",
 	"author": {
 		"name": "Roman F.",
 		"url": "https://rom.dog"
