@@ -1,21 +1,16 @@
 {
-	"name": "github-markdown-css",
-	"version": "4.0.0",
+	"name": "github-darkdown-css",
+	"version": "1.0.0",
 	"description": "The minimal amount of CSS to replicate the GitHub Markdown style",
 	"license": "MIT",
-	"repository": "sindresorhus/github-markdown-css",
-	"funding": "https://github.com/sponsors/sindresorhus",
+	"repository": "sindresorhus/github-darkdown-css",
 	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
+		"name": "Roman F.",
+		"url": "https://rom.dog"
 	},
-	"main": "github-markdown.css",
-	"scripts": {
-		"make": "github-markdown-css > github-markdown.css"
-	},
+	"main": "github-darkdown.css",
 	"files": [
-		"github-markdown.css"
+		"github-darkdown.css"
 	],
 	"keywords": [
 		"browser",
@@ -25,8 +20,5 @@
 		"css",
 		"style",
 		"stylesheet"
-	],
-	"devDependencies": {
-		"generate-github-markdown-css": "^4.0.0"
-	}
+	]
 }
